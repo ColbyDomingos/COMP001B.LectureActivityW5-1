@@ -2,12 +2,14 @@ myGrades = [100, 100, 90, 73, 78, 94, 86];
 
 myAverage = 0;
 
-for (let i = 1; i <= myGrades.length; i++) {
+for (let i = 0; i < myGrades.length; i++) { 
 
-myAverage += myGrades[i];
-
+    myAverage += myGrades[i];
 }
 
 myAverage = myAverage / myGrades.length;
 
 console.log("My grade average is " + myAverage);
+
+//noticed the for loop is incorrect made it start at 0 and changed the redundant sign
+
